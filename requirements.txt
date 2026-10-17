@@ -1,0 +1,11 @@
+# Core (always required)
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+openpyxl>=3.0
+joblib>=1.2
+
+# Needed only if you supply your own data/Final_Study_Dataset_N560.xlsx +
+# master_embeddings.json (see data/README.md) and want to run the XGB
+# algorithm (2 of the 9 paper combinations per target via `train --all9`).
+xgboost>=1.7
